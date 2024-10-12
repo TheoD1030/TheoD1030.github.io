@@ -25,3 +25,6 @@
 	padding: 10px;
 	border-collapse: collapse;
 }
+table a {
+	text: 1.5em white;
+}
