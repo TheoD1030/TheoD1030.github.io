@@ -26,5 +26,6 @@
 	border-collapse: collapse;
 }
 table a {
-	text: 1.5em white;
+	font-size: 1.5em;
+	color: white;
 }
