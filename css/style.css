@@ -9,6 +9,11 @@
 	font-family: "Brush Script MT, Brush Script Std", cursive;
 	horizontal-align: middle;
 }
+#body-menu {
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
 #jours-menu {
 	border-collapse: collapse;
 	margin-left: auto;
