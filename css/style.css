@@ -9,7 +9,7 @@
 	font-family: "Brush Script MT, Brush Script Std", cursive;
 	horizontal-align: middle;
 }
-#jours-menu {
+#jours-menu, th{
 	color: white;
 	border: 3px solid white;
 	padding: 10px;
