@@ -32,7 +32,7 @@ table a {
 #menu-sidebar {
 	height: 100%;
 	width: 20%;
-	postition: fixed;
+	position: fixed;
 	float: left;
 	background: black;
 }
