@@ -40,3 +40,7 @@ table a {
 	overflow-x: hidden;
 	padding-top: 20px;
 }
+#main-div {
+	margin-left: 20%;
+	padding: 0px 10px;
+}
