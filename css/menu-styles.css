@@ -21,20 +21,21 @@
 }
 #jours-menu th{
 	color: white;
-	border: 3px solid white;
-	padding: 10px;
-	border-collapse: collapse;
+	border: 3px solid black;
+	padding: auto;
+	border-width: 80%;
+	
 }
 table a {
-	font-size: 1.5em;
-	color: white;
+	font-size: 2em;
+	color: black;
 }
 #menu-sidebar {
 	height: 100%;
 	width: 20%;
 	position: fixed;
 	z-index: 1;
-	background: black;
+	background: #F5F5F5;
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
