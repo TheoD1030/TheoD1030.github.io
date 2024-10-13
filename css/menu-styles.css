@@ -29,3 +29,10 @@ table a {
 	font-size: 1.5em;
 	color: white;
 }
+#menu-sidebar {
+	height: 100%;
+	width: 20%;
+	postition: fixed;
+	float: left;
+	background: black;
+}
