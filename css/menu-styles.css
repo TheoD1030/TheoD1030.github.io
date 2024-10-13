@@ -33,6 +33,10 @@ table a {
 	height: 100%;
 	width: 20%;
 	position: fixed;
-	float: left;
+	z-index: 1;
 	background: black;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
 }
