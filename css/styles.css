@@ -11,6 +11,17 @@
 	padding-top: 20px;
 	border: 3px solid #99999A;
 	color: #99999A;
+	text-align: center;
+}
+#sidebar-acceuil a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #99999A;
+  display: block;
+}
+.sidenav a:hover {
+  color: #00843D;
 }
 #main-acceuil {
 	margin-left: 20%;
