@@ -47,5 +47,17 @@ table a {
 	font-family: "Brush Script MT, Brush Script Std", cursive;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 20px;
+	font-size: 50px;
+}
+#poeme-body h1 {
+	margin-left: auto;
+	margin-right: autp;
+}
+#poeme-body p {
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 30%;
+}
+#poeme-body img {
+	float: right;
 }
