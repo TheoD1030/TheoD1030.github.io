@@ -1,13 +1,10 @@
+/*CSS pour le Menu*/
 .menu-table {
 	border-right: 2px solid white;
 }
 .table {
 	padding-right: 10px;
 	padding-left: 10px;
-}
-#poeme-body {
-	font-family: "Brush Script MT, Brush Script Std", cursive;
-	horizontal-align: middle;
 }
 #body-menu {
 	margin-right: auto;
@@ -44,4 +41,11 @@ table a {
 #main-div {
 	margin-left: 20%;
 	padding: 0px 10px;
+}
+/* CSS pour Poeme */
+#poeme-body {
+	font-family: "Brush Script MT, Brush Script Std", cursive;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
 }
