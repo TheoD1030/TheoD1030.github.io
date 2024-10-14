@@ -19,8 +19,9 @@
   font-size: 25px;
   color: #99999A;
   display: block;
+  text-align: left;
 }
-.sidenav a:hover {
+#sidebar-acceuil a:hover {
   color: #00843D;
 }
 #main-acceuil {
