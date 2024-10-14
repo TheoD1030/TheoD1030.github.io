@@ -1,3 +1,20 @@
+/*CSS pour Acceuil*/
+#sidebar-acceuil {
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	z-index: 1;
+	background: #041C2C;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+#main-acceuil {
+	margin-left: 20%;
+	padding: 0px 10px;
+}
+
 /*CSS pour le Menu*/
 .menu-table {
 	border-right: 2px solid white;
