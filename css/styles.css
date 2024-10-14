@@ -45,19 +45,16 @@ table a {
 /* CSS pour Poeme */
 #poeme-body {
 	font-family: "Brush Script MT, Brush Script Std", cursive;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 50px;
+	font-size: 35px;
 }
 #poeme-body h1 {
-	margin-left: auto;
-	margin-right: autp;
+	text-align: center;
 }
 #poeme-body p {
-	margin-left: auto;
-	margin-right: auto;
-	line-height: 30%;
+	text-align: center;
+	line-height: 200%;
 }
 #poeme-body img {
+	display: block;
 	float: right;
 }
