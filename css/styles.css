@@ -144,9 +144,8 @@ table a:hover {
 	font-size: 20px;
 }
 
-#body-menu a {
-	position: absolute;
-	left: 15;
+#main-div a {
+	text-align: left;
 }
 
 /* CSS pour Poeme */
