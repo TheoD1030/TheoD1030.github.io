@@ -88,6 +88,10 @@
 	border-right: 2px solid white;
 }
 .table {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#body-menu table {
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -140,9 +144,10 @@ table a:hover {
 	font-size: 20px;
 }
 
-#main-div a {
+#body-menu a {
 	text-align: left;
 }
+
 /* CSS pour Poeme */
 #poeme-body {
 	font-family: "Brush Script MT, Brush Script Std", cursive;
