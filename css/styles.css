@@ -33,6 +33,20 @@
 	margin-left: 20%;
 	padding: 0px 10px;
 }
+#acceuil-header {
+	height: 180px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	overflow-y: hidden;
+	padding-top: 20px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	background: #00843D;
+	
+}
 
 /*CSS pour le Menu*/
 .menu-table {
