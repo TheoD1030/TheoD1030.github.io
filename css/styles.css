@@ -30,8 +30,9 @@
   	color: #00843D;
 }
 #main-acceuil {
-	position: relative;
+	position: absolute;
 	left: 20%;
+	top: 140px;
 	padding: 0px 10px;
 }
 #acceuil-header {
