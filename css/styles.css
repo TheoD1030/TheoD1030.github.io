@@ -50,11 +50,15 @@
 	left: 20%;
 	top: 140px;
 	padding: 0px 10px;
+	background: #041C2C;
 }
 .acceuil-grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 10px;
+	grid-gap: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 100%;
 }
 .acceuil-cell {
 	padding: 10px;
