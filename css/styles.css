@@ -67,7 +67,6 @@
 }
 .acceuil-cell {
 	padding: 10px;
-	border: 2px solid #99999A;
 }
 #main-acceuil img {
 	width: 100%;
@@ -151,43 +150,4 @@ table a {
 #poeme-body img {
 	display: block;
 	float: right;
-}
-#sidebar-poeme {
-	height: 100%;
-	width: 20%;
-	position: fixed;
-	z-index: 3;
-	background: #041C2C;
-	top: 0;
-	left: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-	border-right: 3px solid #99999A;
-	color: #99999A;
-	text-align: center;
-	font-family: sans-serif;
-}
-#sidebar-poeme h2 {
-	font-weight: normal;
-	font-size: 22px;
-}
-#sidebar-poeme a {
-  	padding: 6px 8px 6px 16px;
-  	text-decoration: none;
-  	font-size: 18px;
-  	color: #99999A;
-  	display: block;
-  	text-align: left;
-}
-#sidebar-poeme a:hover {
-  	color: #00843D;
-}
-#main-poeme {
-	z-index: 1;
-	position: absolute;
-	width: 80%;
-	right: 0;
-	height: 100%;
-	background: #041C2C;
-	color: #99999A;
 }
