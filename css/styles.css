@@ -95,6 +95,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	color: white;
+	font-family: sans-serif;
 }
 #jours-menu {
 	border-collapse: collapse;
@@ -110,10 +111,14 @@
 }
 table caption {
 	font-size: 26px;
-	color: black;
+	color: white;
 }
 table a {
 	font-size: 24px;
+	color: white;
+	text-decoration: none;
+}
+table a:hover {
 	color: black;
 }
 #menu-sidebar {
@@ -121,7 +126,7 @@ table a {
 	width: 20%;
 	position: fixed;
 	z-index: 1;
-	background: #F5F5F5;
+	background: #3D251E;
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
@@ -130,6 +135,8 @@ table a {
 #main-div {
 	margin-left: 20%;
 	padding: 0px 10px;
+	text-align: middle;
+	font-size: 20px;
 }
 /* CSS pour Poeme */
 #poeme-body {
