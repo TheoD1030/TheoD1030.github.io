@@ -132,6 +132,14 @@ table a {
 #poeme-body {
 	font-family: "Brush Script MT, Brush Script Std", cursive;
 	font-size: 35px;
+	background: #041C2C;
+	color: #99999A;
+}
+#poeme-body a {
+	color: #99999A;
+}
+#poeme-body a:hover {
+	color: #00843D;
 }
 #poeme-body h1 {
 	text-align: center;
