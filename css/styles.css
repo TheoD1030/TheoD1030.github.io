@@ -131,13 +131,17 @@ table a:hover {
 	left: 0;
 	overflow-x: hidden;
 	padding-top: 20px;
-	border-left: 3px solid white;
+	border-right: 3px solid white;
 }
 #main-div {
 	margin-left: 20%;
 	padding: 0px 10px;
-	text-align: middle;
+	text-align: center;
 	font-size: 20px;
+}
+
+#main-div a {
+	text-align: left;
 }
 /* CSS pour Poeme */
 #poeme-body {
