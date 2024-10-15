@@ -29,12 +29,7 @@
 #sidebar-acceuil a:hover {
   	color: #00843D;
 }
-#main-acceuil {
-	position: absolute;
-	left: 20%;
-	top: 140px;
-	padding: 0px 10px;
-}
+
 #acceuil-header {
 	height: 140px;
 	width: 80%;
@@ -49,8 +44,31 @@
 	vertical-align: middle;
 	font-family: sans-serif;
 	background: #00843D;
-	
-	
+}
+#main-acceuil {
+	position: absolute;
+	left: 20%;
+	top: 140px;
+	padding: 0px 10px;
+}
+.acceuil-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+.acceuil-cell {
+	padding: 10px;
+	border: 2px solid #99999A;
+}
+#main-acceuil img {
+	width: 100%;
+	height: 150px;
+}
+.acceuil-cell h3 {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #99999A;
 }
 
 /*CSS pour le Menu*/
