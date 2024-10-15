@@ -3,7 +3,7 @@
 	height: 100%;
 	width: 20%;
 	position: fixed;
-	z-index: 2;
+	z-index: 1;
 	background: #041C2C;
 	top: 0;
 	left: 0;
@@ -31,12 +31,12 @@
 }
 #main-acceuil {
 	margin-left: 20%;
+	margin-top: 160px;
 	padding: 0px 10px;
 }
 #acceuil-header {
-	z-index: 1;
 	height: 160px;
-	width: 100%;
+	width: 80%;
 	position: fixed;
 	top:0;
 	left:0;
