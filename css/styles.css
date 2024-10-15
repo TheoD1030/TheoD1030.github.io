@@ -31,6 +31,7 @@
 }
 
 #acceuil-header {
+	z-index: 1;
 	height: 140px;
 	width: 80%;
 	position: fixed;
@@ -46,6 +47,7 @@
 	background: #00843D;
 }
 #main-acceuil {
+	z-index: 2;
 	position: absolute;
 	width: 80%;
 	right: 0;
