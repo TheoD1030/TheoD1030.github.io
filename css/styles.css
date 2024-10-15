@@ -47,9 +47,9 @@
 }
 #main-acceuil {
 	position: absolute;
-	left: 20%;
-	top: 140px;
-	padding: 0px 10px;
+	width: 80%;
+	right: 0;
+	top: 160px;
 	background: #041C2C;
 }
 .acceuil-grid {
@@ -58,7 +58,6 @@
 	grid-gap: 10%;
 	margin-left: 10%;
 	margin-right: 10%;
-	width: 100%;
 }
 .acceuil-cell {
 	padding: 10px;
