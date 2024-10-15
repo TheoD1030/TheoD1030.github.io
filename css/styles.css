@@ -103,13 +103,17 @@
 	color: black;
 }
 #jours-menu th{
-	border: 3px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
 	padding: 30px;
 	width: 90%;
-	
+}
+table caption {
+	font-size: 26px;
+	color: black;
 }
 table a {
-	font-size: 2em;
+	font-size: 24px;
 	color: black;
 }
 #menu-sidebar {
