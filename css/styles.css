@@ -30,7 +30,8 @@
   	color: #00843D;
 }
 #main-acceuil {
-	margin-left: 20%;
+	position: absolute;
+	left: 20%;
 	top: 160px;
 	padding: 0px 10px;
 }
