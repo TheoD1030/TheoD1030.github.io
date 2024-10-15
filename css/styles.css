@@ -88,8 +88,8 @@
 	border-right: 2px solid white;
 }
 .table {
-	padding-right: 10px;
-	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 #body-menu {
 	margin-right: auto;
@@ -104,8 +104,8 @@
 	color: black;
 }
 #jours-menu th{
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
 	padding: 30px;
 	width: 90%;
 }
@@ -131,6 +131,7 @@ table a:hover {
 	left: 0;
 	overflow-x: hidden;
 	padding-top: 20px;
+	border-left: 3px solid white;
 }
 #main-div {
 	margin-left: 20%;
