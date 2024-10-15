@@ -9,7 +9,7 @@
 	left: 0;
 	overflow-x: hidden;
 	padding-top: 20px;
-	border: 3px solid #99999A;
+	border-right: 3px solid #99999A;
 	color: #99999A;
 	text-align: center;
 	font-family: sans-serif;
@@ -34,15 +34,17 @@
 	padding: 0px 10px;
 }
 #acceuil-header {
-	height: 180px;
+	height: 160px;
 	width: 100%;
 	position: fixed;
 	top:0;
 	left:0;
 	overflow-y: hidden;
+	overflow-x: hidden;
 	padding-top: 20px;
 	color: white;
 	text-align: center;
+	vertical-align: middle;
 	font-family: sans-serif;
 	background: #00843D;
 	
