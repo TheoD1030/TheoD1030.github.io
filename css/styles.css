@@ -3,7 +3,7 @@
 	height: 100%;
 	width: 20%;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 	background: #041C2C;
 	top: 0;
 	left: 0;
@@ -34,6 +34,7 @@
 	padding: 0px 10px;
 }
 #acceuil-header {
+	z-index: 1;
 	height: 160px;
 	width: 100%;
 	position: fixed;
