@@ -12,17 +12,22 @@
 	border: 3px solid #99999A;
 	color: #99999A;
 	text-align: center;
+	font-family: sans-serif;
+}
+#sidebar-acceuil h2 {
+	font-weight: normal;
+	font-size: 22px;
 }
 #sidebar-acceuil a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #99999A;
-  display: block;
-  text-align: left;
+  	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 18px;
+  	color: #99999A;
+  	display: block;
+  	text-align: left;
 }
 #sidebar-acceuil a:hover {
-  color: #00843D;
+  	color: #00843D;
 }
 #main-acceuil {
 	margin-left: 20%;
