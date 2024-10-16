@@ -1,5 +1,5 @@
 /*CSS pour Acceuil*/
-.blue-sidebar {
+.blue-sidebar { /*Configurations pour la barre latéral navigateur dans l'index et la biographie*/
 	height: 100%;
 	width: 20%;
 	position: fixed;
@@ -14,11 +14,11 @@
 	text-align: center;
 	font-family: sans-serif;
 }
-.blue-sidebar h2 {
+.blue-sidebar h2 { /*Configurations pour le h2 dans la barre latéral*/
 	font-weight: normal;
 	font-size: 22px;
 }
-.blue-sidebar a {
+.blue-sidebar a { /*Configurations pour les liens dans la barre*/
   	padding: 6px 8px 6px 16px;
   	text-decoration: none;
   	font-size: 18px;
@@ -26,11 +26,11 @@
   	display: block;
   	text-align: left;
 }
-.blue-sidebar a:hover {
+.blue-sidebar a:hover { /*Les liens changent de couleurs lorsque la souris est par dessus*/
   	color: #00843D;
 }
 
-#acceuil-header {
+#acceuil-header { /*Configurations qui créent l'en tête dans l'index*/
 	z-index: 2;
 	height: 140px;
 	width: 80%;
@@ -48,7 +48,7 @@
 	line-height: 200%;
 	background: #00843D;
 }
-#main-acceuil {
+#main-acceuil { /*Configurations pour le corps de la page*/
 	z-index: 1;
 	position: absolute;
 	width: 80%;
@@ -60,21 +60,21 @@
 	font-family: sans-serif;
 	text-align: center;
 }
-.acceuil-grid {
+.acceuil-grid { /*Configurations qui créent la grille 2x2*/
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 10%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
-.acceuil-cell {
+.acceuil-cell { /*Configurations pour les cellules dans la grille*/
 	padding: 10px;
 }
-.acceuil-cell img {
+.acceuil-cell img { /*Configurations pour les images dans les cellules*/
 	width: 100%;
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
-.acceuil-cell a {
+.acceuil-cell a { /*Configurations pour les liens dans les cellules*/
 	margin-top: 10px;
 	font-size: 16px;
 	font-weight: bold;
@@ -82,53 +82,53 @@
 	text-align: center;
 	color: #99999A;
 }
-.acceuil-cell a:hover {
+.acceuil-cell a:hover { /*Les liens changent de couleur lorsque la souris est par dessus*/
 	color: #00843D;
 }
 
 /*CSS pour le Menu*/
-.menu-table {
+.menu-table { /*Crée la ligne blanche ente les repas, les ingrédients et les prix*/
 	border-right: 2px solid white;
 }
-.table {
+.table { /*Espacement à côté de ces lignes blanches*/
 	padding-right: 20px;
 	padding-left: 20px;
 }
-#body-menu table {
+#body-menu table { /*Met les tables au centre de la page*/
 	margin-right: auto;
 	margin-left: auto;
 }
-#body-menu {
+#body-menu { /*Change la couleur et la fonte du texte dans la page*/
 	margin-right: auto;
 	margin-left: auto;
 	color: white;
 	font-family: sans-serif;
 }
-#jours-menu {
+#jours-menu { /*Configurations qui créent la barre latéral navigateur*/
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
 	color: black;
 }
-#jours-menu th{
+#jours-menu th{ /*Configurations qui créent la barre latéral navigateur*/
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
 	padding: 30px;
 	width: 90%;
 }
-table caption {
+table caption { /*Change la couleur et la grandeur du titre de la barre*/
 	font-size: 26px;
 	color: white;
 }
-table a {
+table a { /*Configurations des liens dans la barre*/
 	font-size: 24px;
 	color: white;
 	text-decoration: none;
 }
-table a:hover {
+table a:hover { /*Change la couleur des liens lorsque la souris est dessus*/
 	color: black;
 }
-#menu-sidebar {
+#menu-sidebar { /*Plus de configurations qui créent la barre navigateur*/
 	height: 100%;
 	width: 20%;
 	position: fixed;
@@ -140,46 +140,46 @@ table a:hover {
 	padding-top: 20px;
 	border-right: 3px solid white;
 }
-#main-div {
+#main-div { /*Configurations pour la partie principal de la page*/
 	margin-left: 20%;
 	padding: 0px 10px;
 	text-align: center;
 	font-size: 20px;
 }
 
-#acceuil-link {
+#acceuil-link { /*Met le lien de retour à l'acceuil au gauche de la page*/
 	text-align: left;
 }
-#acceuil-link a:hover {
+#acceuil-link a:hover { /*Change la couleur du lien lorsque la souris est dessus*/
 	color: #00843D;
 }
 
 /* CSS pour Poeme */
-#poeme-body {
+#poeme-body { /*Change la fonte, la couleur du texte et l'arrière plan*/
 	font-family: "Brush Script MT, Brush Script Std", cursive;
 	font-size: 35px;
 	background: #041C2C;
 	color: #99999A;
 }
-#poeme-body a {
+#poeme-body a { /*Change la couleur du lien de retour*/
 	color: #99999A;
 }
-#poeme-body a:hover {
+#poeme-body a:hover { /*Chanfe la couleur du lien de retour lorsque la souris est dessus*/
 	color: #00843D;
 }
-#poeme-body h1 {
+#poeme-body h1 { /*Met le h1 au centre de la page*/
 	text-align: center;
 }
-#poeme-body p {
+#poeme-body p { /*Met le texte au centre de la page*/
 	text-align: center;
 	line-height: 200%;
 }
-#poeme-body img {
+#poeme-body img { /*Met l'image au droit de la page*/
 	display: block;
 	float: right;
 }
 /* CSS pour Biographie*/
-#main-biographie {
+#main-biographie { /*Configurations pour la partie principal de la page*/
 	z-index: 1;
 	position: absolute;
 	width: 80%;
@@ -192,49 +192,49 @@ table a:hover {
 	text-align: center;
 	font-size: 18px;
 }
-#info-biographie {
+#info-biographie { /*Met le texte dans le div d'info au gauche de la page*/
 	text-align: left;
 	padding: 15px;
 }
-#info-biographie img {
+#info-biographie img { /*Met l'image au droite de la page*/
 	float: right;
 }
-#main-biographie a {
+#main-biographie a { /*Change la couleur du lien de retour et ajoute de l'espacement autour*/
 	color: #99999A;
 	padding: 15px;
 }
-#links-biographie {
+#links-biographie { /*Dit que l'hauteur de l'élément est de 400 pixels*/
 	height: 400px;
 }
-#table-competences {
+#table-competences { /*Change la couleur du texte à l'intérieur de l'élément*/
 	z-index: 3;
 	color: #99999A;
 }
-#table-competences table {
+#table-competences table { /*Ajoute une bordure au tableau et le met au centre de la page*/
 	border: 3px solid #99999A;
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
 }
-#table-competences th {
+#table-competences th { /*Ajoute des bordures autoures des petits cellules dans le tableau et ajoute de l'espacement*/
 	border: 3px solid #99999A;
 	padding: 10px;
 }
-#table-competences td {
+#table-competences td { /*Ajoute des bordures autoures des petits cellules dans le tableau et ajoute de l'espacement*/
 	border: 3px solid #99999A;
 	padding: 10px;
 }
 
 /*CSS pour Voyage*/
-.image-right {
+.image-right { /*Place tout les images avec cet classe au droite de la page et la grandeur devient 30% de la grandeur de l'élément dont il occupe*/
 	width: 30%;
 	float: right;
 }
-.image-left {
+.image-left { /*Place tout les images avec cet classe au gauche de la page et la grandeur devient 30% de la grandeur de l'élément dont il occupe*/
 	width: 30%;
 	float: left;
 }
-.image-text {
+.image-text { /*La grandeur du div devient 75% de la grandeur de la page, de l'espacement est ajouté et l'élément est placé au centre de la page*/
 	width: 75%;
 	padding-bottom: 30px;
 	margin-right: auto;
