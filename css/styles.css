@@ -231,5 +231,6 @@ table a:hover {
 	float: left;
 }
 .image-text {
+	width: 50%;
 	padding-bottom: 30px;
 }
