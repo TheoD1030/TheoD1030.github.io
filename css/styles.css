@@ -149,6 +149,9 @@ table a:hover {
 #acceuil-link {
 	text-align: left;
 }
+#acceuil-link a:hover {
+	color: #00843D;
+}
 
 /* CSS pour Poeme */
 #poeme-body {
@@ -188,10 +191,9 @@ table a:hover {
 	text-align: center;
 	font-size: 18px;
 }
-#main-biography a {
+#info-biographie {
 	text-align: left;
-	color: #99999A;
 }
-#main-biography a:hover {
-	color: #00843D;
+#info-biographie {
+	float-right
 }
