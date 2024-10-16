@@ -8,7 +8,7 @@
     </head>
     <body id="body-menu"><!--style="background-color: #F0E8D7;"-->
 
-	 <style>
+	 <style> /*Ce style permet de changer l'arrière-fond à une image*/
 body {
   background-image: url('https://amazingfoodanddrink.com/wp-content/uploads/2024/05/The-Best-Italian-Restaurants-Around-the-World_-259440181.jpg');
   background-repeat: no-repeat;
@@ -16,11 +16,11 @@ body {
   background-size: cover;
 }
 </style> 
-	<div id="menu-sidebar">
+	<div id="menu-sidebar"> <!--Le tableau dans ce div crée une barre latéral navigateur fixed pour pouvoir naviguer les menus pour chaque jour-->
 	    <table id="jours-menu">
 		    <caption>Jours</caption>
 			    <tr>
-				<th><a href="#dimanche">Dimanche</a></th>
+				<th><a href="#dimanche">Dimanche</a></th> <!--Ceux-ci sont de liens internes qui t'amène dans un autre endroit sur la page-->
 			    </tr>
 			    <tr>
 				<th><a href="#lundi">Lundi</a></th>
@@ -44,7 +44,7 @@ body {
 	    </div>
 		<br>
 	<div id="main-div">
-	<div id="acceuil-link"><a style="color: white;" href="index.html">Acceuil</a></div>
+	<div id="acceuil-link"><a style="color: white;" href="index.html">Acceuil</a></div> <!--Ceci est le lien de retour au page principal-->
         <h1><b><i>Restaurant TD</i></b></h1>
 		<br>
 		<h2><b>Menu du Jour</b></h2>
@@ -52,7 +52,7 @@ body {
 	   
 		<h3 id="dimanche"><b>Dimanche</b></h3>
 
-        <table>
+        <table> <!--Ces tableau démontrent le plat, les ingrédients et le prix pour chaque repas chaque jour-->
             <thead>
                 <tr>
                     <th><!--Plat--></th>
@@ -67,9 +67,9 @@ body {
 					<td class="table">$24,99</td>
 				</tr>
             </tbody>
-        </table>
+        </table> <!--Aussi accompagné par une image du repas--> 
 		<img src="https://marleyspoon.com/media/recipes/45255/main_photos/large/cheese_ravioli_ten_minute_marinara-bf5356dc2d13a3bddef8b4665dd23bd0.jpeg" alt="Image de ravioli" width="350">
-		<br>
+		<br> 
 		<h3 id="lundi"><b>Lundi</b></h3>
 
         <table>
