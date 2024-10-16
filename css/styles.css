@@ -224,9 +224,11 @@ table a:hover {
 /*CSS pour Voyage*/
 .image-right {
 	float: right;
-	margin-right: 35%;
+	margin-right: 25%;
+	padding-bottom: 30px;
 }
 .image-left {
 	float: left;
-	margin-left: 35%;
+	margin-left: 25%;
+	padding-bottom: 30px;
 }
