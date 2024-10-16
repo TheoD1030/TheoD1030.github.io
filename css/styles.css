@@ -190,10 +190,12 @@ table a:hover {
 	font-family: sans-serif;
 	text-align: center;
 	font-size: 18px;
+	padding: 20px;
 }
 #info-biographie {
 	text-align: left;
 }
 #info-biographie img {
 	float: right;
+	height: 100%;
 }
