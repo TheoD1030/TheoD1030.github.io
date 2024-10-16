@@ -194,6 +194,6 @@ table a:hover {
 #info-biographie {
 	text-align: left;
 }
-#info-biographie {
-	float-right
+#info-biographie img {
+	float: right;
 }
