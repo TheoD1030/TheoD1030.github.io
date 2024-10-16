@@ -186,4 +186,12 @@ table a:hover {
 	color: #99999A;
 	font-family: sans-serif;
 	text-align: center;
+	font-size: 18px;
+}
+#main-biography a {
+	text-align: left;
+	color: #99999A;
+}
+#main-biography a:hover {
+	color: #00843D;
 }
