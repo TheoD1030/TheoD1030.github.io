@@ -190,11 +190,15 @@ table a:hover {
 	font-family: sans-serif;
 	text-align: center;
 	font-size: 18px;
-	padding: 20px;
 }
 #info-biographie {
 	text-align: left;
+	padding: 15px;
 }
 #info-biographie img {
 	float: right;
+}
+#main-biographie #acceuil-link {
+	color: #99999A;
+	padding: 15px;
 }
