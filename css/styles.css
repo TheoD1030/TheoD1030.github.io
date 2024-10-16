@@ -1,5 +1,5 @@
 /*CSS pour Acceuil*/
-#sidebar-acceuil {
+#sidebar-acceuil, #sidebar-biographie {
 	height: 100%;
 	width: 20%;
 	position: fixed;
@@ -14,11 +14,11 @@
 	text-align: center;
 	font-family: sans-serif;
 }
-#sidebar-acceuil h2 {
+#sidebar-acceuil, #sidebar-biographie h2 {
 	font-weight: normal;
 	font-size: 22px;
 }
-#sidebar-acceuil a {
+#sidebar-acceuil, #sidebar-biographie a {
   	padding: 6px 8px 6px 16px;
   	text-decoration: none;
   	font-size: 18px;
@@ -26,7 +26,7 @@
   	display: block;
   	text-align: left;
 }
-#sidebar-acceuil a:hover {
+#sidebar-acceuil, #sidebar-biographie a:hover {
   	color: #00843D;
 }
 
@@ -173,4 +173,16 @@ table a:hover {
 #poeme-body img {
 	display: block;
 	float: right;
+}
+/* CSS pour Biographie*/
+#main-biographie {
+	z-index: 1;
+	position: absolute;
+	width: 80%;
+	right: 0;
+	height: 100%;
+	background: #041C2C;
+	color: #99999A;
+	font-family: sans-serif;
+	text-align: center;
 }
