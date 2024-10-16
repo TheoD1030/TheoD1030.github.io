@@ -190,7 +190,6 @@ table a:hover {
 	font-family: sans-serif;
 	text-align: center;
 	font-size: 18px;
-	overflow-y: hidden;
 }
 #info-biographie {
 	text-align: left;
@@ -203,6 +202,6 @@ table a:hover {
 	color: #99999A;
 	padding: 15px;
 }
-#links-biographie .acceuil-grid {
-	height: 100%;
+#links-biographie {
+	height: fit-content;
 }
