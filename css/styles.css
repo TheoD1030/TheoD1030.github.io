@@ -190,6 +190,7 @@ table a:hover {
 	font-family: sans-serif;
 	text-align: center;
 	font-size: 18px;
+	overflow-y: hidden;
 }
 #info-biographie {
 	text-align: left;
