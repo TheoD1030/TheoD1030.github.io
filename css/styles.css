@@ -1,5 +1,5 @@
 /*CSS pour Acceuil*/
-#sidebar-acceuil, #sidebar-biographie {
+.blue-sidebar {
 	height: 100%;
 	width: 20%;
 	position: fixed;
@@ -14,11 +14,11 @@
 	text-align: center;
 	font-family: sans-serif;
 }
-h2#sidebar-acceuil, h2#sidebar-biographie {
+.blue-sidebar {
 	font-weight: normal;
 	font-size: 22px;
 }
-a#sidebar-acceuil, a#sidebar-biographie {
+.blue-sidebar a {
   	padding: 6px 8px 6px 16px;
   	text-decoration: none;
   	font-size: 18px;
@@ -26,7 +26,7 @@ a#sidebar-acceuil, a#sidebar-biographie {
   	display: block;
   	text-align: left;
 }
-a:hover#sidebar-acceuil, a:hover#sidebar-biographie {
+.blue-sidebar a:hover {
   	color: #00843D;
 }
 
