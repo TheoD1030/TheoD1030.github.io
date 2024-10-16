@@ -220,3 +220,11 @@ table a:hover {
 	border: 3px solid #99999A;
 	padding: 10px;
 }
+
+/*CSS pour Voyage*/
+.image-right {
+	float: right;
+}
+.image-left {
+	float: left;
+}
