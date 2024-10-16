@@ -184,7 +184,7 @@ table a:hover {
 	width: 80%;
 	right: 0;
 	top: 0;
-	height: 1500px;
+	height: 1600px;
 	background: #041C2C;
 	color: #99999A;
 	font-family: sans-serif;
@@ -198,7 +198,7 @@ table a:hover {
 #info-biographie img {
 	float: right;
 }
-#main-biographie #acceuil-link {
+#main-biographie a {
 	color: #99999A;
 	padding: 15px;
 }
