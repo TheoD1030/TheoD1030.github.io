@@ -233,4 +233,6 @@ table a:hover {
 .image-text {
 	width: 50%;
 	padding-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
 }
