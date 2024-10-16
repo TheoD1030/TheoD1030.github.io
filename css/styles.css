@@ -205,8 +205,11 @@ table a:hover {
 #links-biographie {
 	height: 400px;
 }
-#table-compétences table {
+#table-compétences {
+	z-index: 3;
 	color: #99999A;
+}
+#table-compétences table {
 	border: 3px solid #99999A;
 	border-collapse: collapse;
 }
