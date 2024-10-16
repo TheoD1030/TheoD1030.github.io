@@ -225,10 +225,11 @@ table a:hover {
 .image-right {
 	float: right;
 	margin-right: 25%;
-	padding-bottom: 30px;
 }
 .image-left {
 	float: left;
 	margin-left: 25%;
+}
+.image-text {
 	padding-bottom: 30px;
 }
