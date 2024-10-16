@@ -14,11 +14,11 @@
 	text-align: center;
 	font-family: sans-serif;
 }
-#sidebar-acceuil,#sidebar-biographie h2 {
+#sidebar-acceuil h2 {
 	font-weight: normal;
 	font-size: 22px;
 }
-#sidebar-acceuil,#sidebar-biographie a {
+#sidebar-acceuil a {
   	padding: 6px 8px 6px 16px;
   	text-decoration: none;
   	font-size: 18px;
