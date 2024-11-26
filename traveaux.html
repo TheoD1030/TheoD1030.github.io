@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title>Calculatrice Modulo</title>
+    </head>
+    <body>
+        <form>
+            <h1><b>Calculatrice Modulo</b></h1>
+            <label for="num1">Numéro 1:</label>
+            <input type="text" id="num1">
+            <label for="num2">Numéro 2:</label>
+            <input type="text" id="num2">
+            <input type="button" id="calcule" value="Calculer %" onclick="calculeModulo()">
+            <br>
+            <div id="afficheResultat"></div>
+            <script>
+                function calculeModulo() {
+                    var numUn = document.getElementById("num1").value;
+                    var numDeux = document.getElementById("num2").value;
+                    var resultat = numUn % numDeux;
+                    var affiche = document.getElementById("afficheResultat");
+                    affiche.innerHTML = "<br><hr><br>" + resultat;
+                }
+            </script>
+        </form>
+        <form>
+            <h1><b>Afficheur de Nom</b></h1>
+            <label for="preNom">Inséré votre prenom:</label>
+            <input type="text" id="preNom">
+            <label for="milNom">Inséré votre nom de milieu:</label>
+            <input type="text" id="milNom">
+            <label for="famNom">Inséré votre nom de famille:</label>
+            <input type="text" id="famNom">
+            <br>
+            <input type="button" id="initiales" value="Afficher les Initiales" onclick="afficheInitiales()"><br>
+            <input type="button" id="nomComplet" value="Afficher le nom au complèt" onclick="afficheNomComplet()"><br>
+            <input type="button" id="nomUtilisateur" value="Afficher le nom d'utilisateur" onclick="afficheNomUtilisateur()">
+            <br>
+            <div id="afficheResultat"></div>
+            <script>
+                function afficheInitiales() {
+                    var preNom = document.getElementById("preNom").value;
+                    var milNom = document.getElementById("milNom").value;
+                    var famNom = document.getElementById("famNom").value;
+                    var initiales = preNom.charAt(0) + "." + milNom.charAt(0) + "." + famNom.charAt(0) + ".";
+                    var affiche = document.getElementById("afficheResultat");
+                    affiche.innerHTML = "<br><hr><br><h2>Initiales</h2>" + initiales.toUpperCase();
+                }
+                function afficheNomComplet() {
+                    var preNom = document.getElementById("preNom").value;
+                    var milNom = document.getElementById("milNom").value;
+                    var famNom = document.getElementById("famNom").value;
+                    var nomComplet = preNom + " " + milNom + " " + famNom;
+                    var affiche = document.getElementById("afficheResultat");
+                    affiche.innerHTML = "<br><hr><br><h2>Nom au Complèt</h2>" + nomComplet;
+                }
+                function afficheNomUtilisateur() {
+                    var preNom = document.getElementById("preNom").value;
+                    var milNom = document.getElementById("milNom").value;
+                    var famNom = document.getElementById("famNom").value;
+                    var nomUtilisateur = preNom.charAt(0) + milNom.charAt(0) + famNom;
+                    var affiche = document.getElementById("afficheResultat");
+                    affiche.innerHTML = "<br><hr><br><h2>Nom d'Utilisateur</h2>" + nomUtilisateur.toLowerCase();
+                }
+            </script>
+        </form>
+    </body>
+</html>
