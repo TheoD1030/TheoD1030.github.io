@@ -65,5 +65,97 @@
                 }
             </script>
         </form>
+        <br><br>
+        <!--Travail MadLibs-->
+        <h1><b>MadLibs!</b></h1>
+        <p>Penser à des mots pour mettre dans les espaces vides et écrivez les dans les cases en bas.</p><br>
+        <p id="madLibsTexte">J’adore l’été !  Chaque jour, quand je suis en vacances, je me réveille, je mets <br>
+        mes ________________ (vêtements - nom pluriel), je me rend à la cuisine et je <br>
+        mange _________________ (nourriture, avec déterminant) pour déjeuner.  Ensuite,<br>
+        mon activité préféré est de _______________ (action - verbe à l’infinitif) avec mon<br>
+        ami __________________ (nom d’ami).  À 14h, je dîne.  Je mange des<br>
+        _________________ (nourriture - au pluriel) ___________________ (adjectif).  Durant<br>
+        l’après-midi, j’aime me rendre au parc et de ________________ (action - verbe à<br>
+        l’infinitif) _________________ (adverbe qui termine en -ment).  En soirée, je mange<br>
+        toujours du __________________ (nourriture) pour le souper.  Finalement, je me<br>
+        couche et je rêve de ______________________ (nom).  Quel été _______________ (adjectif) !</p>
+        <form>
+            <ol>
+                <li>
+                    <label for="txtVetements">Vêtements - nom pluriel:</label>
+                    <input type="text" id="txtVetements">
+                </li><br>
+                <li>
+                    <label for="txtNourritureDeterminant">Nourriture + Déterminant:</label>
+                    <input type="text" id="txtNourritureDeterminant">
+                </li><br>
+                <li>
+                    <label for="txtActionInfinitif">Action - Verbe Infinitif:</label>
+                    <input type="text" id="txtActionInfinitif">
+                </li><br>
+                <li>
+                    <label for="txtNomAmi">Nom d'Ami:</label>
+                    <input type="text" id="txtNomAmi">
+                </li><br>
+                <li>
+                    <label for="txtNourriturePluriel">Nourriture - Au Pluriel:</label>
+                    <input type="text" id="txtNourriturePluriel">
+                </li><br>
+                <li>
+                    <label for="txtAdjectif">Adjectif:</label>
+                    <input type="text" id="txtAdjectif">
+                </li><br>
+                <li>
+                    <label for="txtActionDeux">Action - Verbe Infinitif:</label>
+                    <input type="text" id="txtActionDeux">
+                </li><br>
+                <li>
+                    <label for="txtAdverbeMent">Adverbe - terminaison ment:</label>
+                    <input type="text" id="txtAdverbeMent">
+                </li><br>
+                <li>
+                    <label for="txtNourriture">Nourriture:</label>
+                    <input type="text" id="txtNourriture">
+                </li><br>
+                <li>
+                    <label for="txtNom">Nom:</label>
+                    <input type="text" id="txtNom">
+                </li><br>
+                <li>
+                    <label for="txtAdjectifDeux">Adjectif:</label>
+                    <input type="text" id="txtAdjectifDeux">
+                </li>
+            </ol>
+            <input type="button" id="btnGenerate" value="Généré MadLib" onclick="creationMadLib()"><br>
+            <div id="resultat">
+                
+            </div>
+            <script>
+                function creationMadLib() {
+                    var vetements = document.getElementById("txtVetements").value
+                    var nourritureDeterminant = document.getElementById("txtNourritureDeterminant").value
+                    var actionUn = document.getElementById("txtActionInfinitif").value
+                    var nomAmi = document.getElementById("txtNomAmi").value
+                    var nourriturePluriel = document.getElementById("txtNourriturePluriel").value
+                    var adjectif = document.getElementById("txtAdjectif").value
+                    var actionDeux = document.getElementById("txtActionDeux").value
+                    var adverbe = document.getElementById("txtAdverbeMent").value
+                    var nourriture = document.getElementById("txtNourriture").value
+                    var nom = document.getElementById("txtNom").value
+                    var adjectifDeux = document.getElementById("txtAdjectifDeux").value
+                    var affiche = document.getElementById("resultat")
+                    affiche.innerHTML = "J’adore l’été !  Chaque jour, quand je suis en vacances, je me réveille, je mets\n"+
+                    "mes "+vetements+", je me rend à la cuisine et je\n"+
+                    "mange "+nourritureDeterminant+" pour déjeuner.  Ensuite,\n"+
+                    "mon activité préféré est de "+actionUn+" avec mon\n"+
+                    "ami  "+nomAmi+".  À 14h, je dîne.  Je mange des\n"+
+                    nourriturePluriel+" "+adjectif+".  Durant\n"+
+                    "l’après-midi, j’aime me rendre au parc et de "+actionDeux+"\n"+
+                    adverbe+".  En soirée, je mange\n"+
+                    "toujours du "+nourriture+" pour le souper.  Finalement, je me\n"+
+                    "couche et je rêve de "+nom+".  Quel été "+adjectifDeux+"!";
+                }
+            </script>
+        </form>
     </body>
 </html>
