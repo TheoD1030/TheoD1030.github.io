@@ -157,5 +157,27 @@
                 }
             </script>
         </form>
+        <form>
+            <h1><b>Calculatrice Division</b></h1>
+    <label for="num1">Entrez le premier nombre</label>
+    <input type="text" id="num1"><br><br>
+    <label for="num2">Entrez le deuxième nombre</label>
+    <input type="text" id="num2"><br>
+    <input type="button" id="btnDiviser" onclick="division()" value="Diviser">
+    <div id="affiche"></div>
+    <script >
+      function division() {
+        var num1 = document.getElementById("num1").value;
+        var num2 = document.getElementById("num2").value;
+        var affiche = document.getElementById("affiche");
+        if (num2 == 0) {
+          affiche.innerHTML = "<br><hr><br>Erreur:                   division avec zéro. Change le deuxième nombre.";
+        } else {
+          var resultat = num1 / num2;
+          affiche.innerHTML = "<br><hr><br>Le résultat de            la division est : " + resultat;
+        }
+      }
+    </script>
+        </form>
     </body>
 </html>
